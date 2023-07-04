@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.fundo {
+    background-image: radial-gradient(#394867,#212A3E );
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+}
+
+.name  {
+    position: absolute;
+    top: 4%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    text-align: center;
+    color: #F1F6F9;
+}
+  
+.name {
+    font-size:20px;
+    font-weight: 800;
+    text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+  
+.name span:not(:first-child) {
+    margin-left: -0.35em;
+}
+
+.calculadora {
+    position: absolute;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#resultado {
+    background-color: #fff;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    overflow: hidden;
+    
+}
+
+.botao {
+    width: 50px;
+    height: 50px;
+    margin: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: #fff ;
+}
+
+.botao:hover {
+    background-color: #394867;
+}
+
